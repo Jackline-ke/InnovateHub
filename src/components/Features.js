@@ -8,8 +8,8 @@ const Features = () => {
         <div className='flex flex-col justify-center items-center bg-white border py-2 px-3 rounded-sm'>
           <BiSupport className='text-2xl mb-1 text-[#41cffc]' />
           <div className='flex flex-col justify-center items-center gap-1'>
-            <h1 className='font-semibold'>IT Expert</h1>
-            <p className='text-[12px] text-center'>
+            <h1 className='font-semibold text-[#020e26]'>IT Expert</h1>
+            <p className='text-[12px] text-center text-[#020e26]'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
@@ -17,8 +17,8 @@ const Features = () => {
         <div className='flex flex-col justify-center items-center bg-white border py-2 px-3 rounded-sm'>
           <BiSupport className='text-2xl mb-1 text-[#41cffc]' />
           <div className='flex flex-col justify-center items-center gap-1'>
-            <h1 className='font-semibold'>IT Expert</h1>
-            <p className='text-[12px] text-center'>
+            <h1 className='font-semibold text-[#020e26]'>IT Expert</h1>
+            <p className='text-[12px] text-center text-[#020e26]'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
@@ -26,8 +26,8 @@ const Features = () => {
         <div className='flex flex-col justify-center items-center bg-white border py-2 px-3 rounded-sm'>
           <BiSupport className='text-2xl mb-1 text-[#41cffc]' />
           <div className='flex flex-col justify-center items-center gap-1'>
-            <h1 className='font-semibold'>IT Expert</h1>
-            <p className='text-[12px] text-center'>
+            <h1 className='font-semibold text-[#020e26]'>IT Expert</h1>
+            <p className='text-[12px] text-center text-[#020e26]'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
