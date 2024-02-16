@@ -1,4 +1,6 @@
 import React from 'react'
+import About from './components/About'
+import Features from './components/Features'
 import Hero from './components/Hero'
 import { Navbar } from './components/Navbar'
 
@@ -7,6 +9,8 @@ const App = () => {
     <div className=''>
       <Navbar/>
       <Hero/>
+      <Features/>
+      <About/>
     </div>
   )
 }
