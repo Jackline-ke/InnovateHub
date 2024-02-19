@@ -3,7 +3,7 @@ import {BiCheckSquare} from 'react-icons/bi'
 
 const About = () => {
   return (
-    <div className='w-full h-screen font-serif flex flex-col justify-center items-center px-32 py-16'>
+    <div className='w-full h-full font-serif flex flex-col justify-center items-center px-32 py-16'>
         <div className='flex items-center w-full'>
             <div className='w-1/3'>
                 <img src='https://res.cloudinary.com/dmpr1moai/image/upload/v1708062443/innovateHub/christina-wocintechchat-com-FPQlXQtjkqU-unsplash_b9t1xw.jpg'

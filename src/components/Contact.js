@@ -17,36 +17,7 @@ const Contact = () => {
                </div>
             </div>
         </div>
-        <div className='w-full px-32 flex absolute mt-[-50px]'>
-            <div className='flex-1 bg-blue-400 py-8'></div>
-            <div className='flex-1 border bg-white'>
-                <form className='px-8 py-8 flex flex-col gap-2'>
-                    <div className='flex flex-col gap-1'>
-                        <label>First Name</label>
-                        <input placeholder='first name' type='text' className='border'/>
-                    </div>
-                    <div className='flex flex-col gap-1'>
-                        <label>Second Name</label>
-                        <input placeholder='first name' type='text' className='border'/>
-                    </div>
-                    <div className='flex flex-col gap-1'>
-                        <label>Email</label>
-                        <input placeholder='first name' type='text' className='border'/>
-                    </div>
-                    <div className='flex flex-col gap-1'>
-                        <label>Phone Number</label>
-                        <input placeholder='phone number' type='text' className='border'/>
-                    </div>
-                    <div className='flex flex-col gap-1'>
-                        <label>Select</label>
-                        <select >
-                            <option value="it">IT</option>
-                            <option value="cs">Computer Science</option>
-                        </select>
-                    </div>
-                </form>
-            </div>
-        </div>
+        
     </div>
   )
 }

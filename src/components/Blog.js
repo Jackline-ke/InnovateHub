@@ -1,7 +1,7 @@
 import React from 'react'
 import { BiSupport, BiArrowToRight } from 'react-icons/bi';
 
-const Case = () => {
+const Blog = () => {
   return (
     <div className='w-full h-full flex flex-col justify-center items-center font-serif py-16 text-[#020e26] px-32'>
         <div className='w-2/3 flex flex-col justify-center items-center'>
@@ -87,4 +87,4 @@ const Case = () => {
   )
 }
 
-export default Case
+export default Blog
