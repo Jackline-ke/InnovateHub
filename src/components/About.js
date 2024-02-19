@@ -8,9 +8,11 @@ const About = () => {
             <div className='w-1/3'>
                 <img src='https://res.cloudinary.com/dmpr1moai/image/upload/v1708062443/innovateHub/christina-wocintechchat-com-FPQlXQtjkqU-unsplash_b9t1xw.jpg'
                     className='w-72 h-[350px] object-cover'
+                    alt='about'
                 />
                  <img src='https://res.cloudinary.com/dmpr1moai/image/upload/v1708062441/innovateHub/christina-wocintechchat-com-FBdmhGMdCso-unsplash_qvgykz.jpg'
                     className='w-52 h-[250px] mt-[-200px] object-cover ml-32'
+                    alt='about'
                 />
             </div>
             <div className='w-2/3 pl-12'>

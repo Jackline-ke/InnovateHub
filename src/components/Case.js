@@ -3,7 +3,7 @@ import { BiSupport, BiArrowToRight } from 'react-icons/bi';
 
 const Case = () => {
   return (
-    <div className='w-full h-full flex flex-col justify-center items-center font-serif mt-16 text-[#020e26] px-32'>
+    <div className='w-full h-screen flex flex-col justify-center items-center font-serif mt-8 mb-8 text-[#020e26] px-32'>
         <div className='w-2/3 flex flex-col justify-center items-center'>
             <h3 className='text-sm text-[#41cffc] '>CASE STUDY</h3>
             <p className='text-2xl font-semibold'>IT Solutions & Projects</p>
@@ -76,8 +76,12 @@ const Case = () => {
                 </div>
             </div>
         </div>
-        <div className='text-sm mt-8'>
+        <div className='text-sm mt-4 flex'>
             <p>Get more information</p>
+            <div className='text-[#41cffc] flex items-center ml-2'>
+                <h3>Get Started</h3>
+                <BiArrowToRight className='ml-1'/>
+            </div>
         </div>
     </div>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './components/About'
 import Case from './components/Case'
+import Contact from './components/Contact'
 import Features from './components/Features'
 import Hero from './components/Hero'
 import { Navbar } from './components/Navbar'
@@ -17,6 +18,7 @@ const App = () => {
       <Services/>
       <Testimonals/>
       <Case/>
+      <Contact/>
     </div>
   )
 }
