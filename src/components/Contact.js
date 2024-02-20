@@ -18,7 +18,7 @@ const Contact = () => {
             </div>
         </div>
         <div className='w-full h-full flex justify-center font-serif '>
-        <div className='flex flex-col lg:flex-row px-1 lg:px-32 absolute mt-[-50px]'>
+        <div className='flex flex-col md:flex-row px-1 lg:px-32 absolute mt-[-50px]'>
             <div className='flex-1 relative'>
                 <img src='https://res.cloudinary.com/dmpr1moai/image/upload/v1708334914/innovateHub/studio-republic-fotKKqWNMQ4-unsplash_smmeji.jpg'
                     className='w-full h-32 lg:h-full object-cover'
@@ -27,7 +27,7 @@ const Contact = () => {
                 <div className='absolute w-full h-full top-0 left-0 bg-[#41cffc]/50'></div>
             </div>
             <div className='flex-1 border border-[#41cffc]/20 bg-white'>
-                <form className='px-16 py-2 lg:py-8 flex flex-col gap-2'>
+                <form className='px-8 py-2 lg:py-8 flex flex-col gap-2'>
                     <div className='flex flex-col lg:flex-row gap-4'>
                         <div className='flex flex-col gap-1'>
                             <label>First Name</label>
