@@ -21,7 +21,7 @@ const Contact = () => {
         <div className='flex flex-col md:flex-row px-1 lg:px-32 absolute mt-[-50px]'>
             <div className='flex-1 relative'>
                 <img src='https://res.cloudinary.com/dmpr1moai/image/upload/v1708334914/innovateHub/studio-republic-fotKKqWNMQ4-unsplash_smmeji.jpg'
-                    className='w-full h-32 lg:h-full object-cover'
+                    className='w-full h-32 md:h-full object-cover'
                     alt='contact'
                 />
                 <div className='absolute w-full h-full top-0 left-0 bg-[#41cffc]/50'></div>
