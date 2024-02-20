@@ -4,7 +4,7 @@ import {} from 'react-icons/fa'
 const Testimonals = () => {
   return (
     <div className='w-full h-full border font-serif text-white'>
-        <div className='flex flex-col lg:flex-row'>
+        <div className='flex flex-col md:flex-row'>
             <div className='lg:flex-1'>
                 <img src='https://res.cloudinary.com/dmpr1moai/image/upload/v1708062442/innovateHub/desola-lanre-ologun-IgUR1iX0mqM-unsplash_m3g4av.jpg'
                     className='w-full h-full object-cover'
