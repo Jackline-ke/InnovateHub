@@ -4,7 +4,7 @@ import {BiCheckSquare} from 'react-icons/bi'
 const About = () => {
   return (
     <div className='w-full h-full font-serif flex flex-col justify-center items-center px-8 lg:px-32 py-16'>
-        <div className='flex flex-col lg:flex-row items-center w-full'>
+        <div className='flex flex-col md:flex-row items-center w-full'>
             <div className='w-full lg:w-1/3'>
                 <img src='https://res.cloudinary.com/dmpr1moai/image/upload/v1708062443/innovateHub/christina-wocintechchat-com-FPQlXQtjkqU-unsplash_b9t1xw.jpg'
                     className='w-72 h-[350px] object-cover'
