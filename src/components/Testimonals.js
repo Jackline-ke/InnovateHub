@@ -4,8 +4,8 @@ import {} from 'react-icons/fa'
 const Testimonals = () => {
   return (
     <div className='w-full h-full border font-serif text-white'>
-        <div className='flex'>
-            <div className='flex-1'>
+        <div className='flex flex-col lg:flex-row'>
+            <div className='lg:flex-1'>
                 <img src='https://res.cloudinary.com/dmpr1moai/image/upload/v1708062442/innovateHub/desola-lanre-ologun-IgUR1iX0mqM-unsplash_m3g4av.jpg'
                     className='w-full h-full object-cover'
                     alt='testiomals'
@@ -16,7 +16,7 @@ const Testimonals = () => {
                     magna aliqua.</p>
                 </div>
             </div>
-            <div className='flex-1 flex flex-col gap-2 justify-center items-center bg-[#41cffc] px-32 py-8'>
+            <div className='w-full lg:flex-1 flex flex-col gap-2 justify-center items-center bg-[#41cffc] px-8 lg:px-32 py-8'>
                 <h2 className='font-semibold text-xl'>What Client Say About Us</h2>
                 <div className='rounded-full p-2 w-12 h-12 bg-white flex justify-center items-center'>
                     <p className='text-[#020e26]'>"</p>

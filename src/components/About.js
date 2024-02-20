@@ -3,9 +3,9 @@ import {BiCheckSquare} from 'react-icons/bi'
 
 const About = () => {
   return (
-    <div className='w-full h-full font-serif flex flex-col justify-center items-center px-32 py-16'>
-        <div className='flex items-center w-full'>
-            <div className='w-1/3'>
+    <div className='w-full h-full font-serif flex flex-col justify-center items-center px-8 lg:px-32 py-16'>
+        <div className='flex flex-col lg:flex-row items-center w-full'>
+            <div className='w-full lg:w-1/3'>
                 <img src='https://res.cloudinary.com/dmpr1moai/image/upload/v1708062443/innovateHub/christina-wocintechchat-com-FPQlXQtjkqU-unsplash_b9t1xw.jpg'
                     className='w-72 h-[350px] object-cover'
                     alt='about'
@@ -15,7 +15,7 @@ const About = () => {
                     alt='about'
                 />
             </div>
-            <div className='w-2/3 pl-12'>
+            <div className='w-full lg:w-2/3 lg:pl-12 mt-8 lg:mt-1'>
                 <h3 className='text-[#41cffc] font-medium'>About Us</h3>
                 <h2 className='text-[#020e26] font-semibold text-2xl'>Let Us Be Your Partners <br/> Preferred IT Partner</h2>
                 <p className='text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
@@ -29,7 +29,7 @@ const About = () => {
                             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
-                <button className='px-3 py-1 bg-[#41cffc] rounded-md text-white text-md mt-2 mb-2'>GET STARTED</button>
+                <button className='px-3 py-1 bg-[#41cffc] rounded-md text-sm text-white text-md mt-2 mb-2'>GET STARTED</button>
                 <div>
                     <div className='flex items-center'>
                         <BiCheckSquare className='text-[#41cffc] mr-2'/>

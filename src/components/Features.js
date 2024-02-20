@@ -3,8 +3,8 @@ import { BiSupport } from 'react-icons/bi';
 
 const Features = () => {
   return (
-    <div className='w-full h-full px-32 mt-[-45px] relative font-serif'>
-      <div className='flex justify-center gap-8'>
+    <div className='w-full h-full px-8 lg:px-32 mt-[-45px] relative font-serif'>
+      <div className='flex flex-col lg:flex-row justify-center gap-8'>
         <div className='flex flex-col justify-center items-center bg-white border py-2 px-3 rounded-sm'>
           <BiSupport className='text-2xl mb-1 text-[#41cffc]' />
           <div className='flex flex-col justify-center items-center gap-1'>
