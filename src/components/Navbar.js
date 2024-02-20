@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import {FaBars} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 
@@ -10,8 +10,37 @@ export const Navbar = () => {
     const closeNav = () => {
         setNav(false);
     } 
-  return (
-    <div className='fixed  w-full px-8 py-4 md:px-16 text-white font-serif bg-opacity-70 shadow-md' style={{ backdropFilter: 'blur(5px)', webkitBackdropFilter: 'blur(5px)', zIndex: 1000 /* Set a higher z-index */ }}>
+    useEffect(() => {
+        const handleScroll = () => {
+          const scrollY = window.scrollY;
+          const navbar = document.getElementById('navbar');
+    
+          if (scrollY > 0) {
+            navbar.classList.add('bg-[#020e26]');
+          } else {
+            navbar.classList.remove('bg-[#020e26]');
+          }
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        // Clean up the event listener on component unmount
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
+    
+      return (
+        <div id="navbar"
+            className={`fixed w-full px-8 py-4 md:px-16 text-white font-serif bg-opacity-70 shadow-md transition-colors duration-300 ${
+            nav || window.scrollY > 0 ? 'bg-[#020e26]' : 'bg-opacity-70'
+          }`}
+          style={{
+            backdropFilter: 'blur(5px)',
+            webkitBackdropFilter: 'blur(5px)',
+            zIndex: 1000 /* Set a higher z-index */,
+          }}
+        >
         <div className='flex justify-between items-center'>
             <h1>InnovateHub</h1>
             <div className='hidden lg:flex gap-8 cursor-pointer items-center'>

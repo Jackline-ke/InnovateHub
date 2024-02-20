@@ -3,7 +3,7 @@ import About from './components/About'
 import Blog from './components/Blog'
 import Case from './components/Case'
 import Contact from './components/Contact'
-import Contact1 from './components/Contact1'
+// import Contact1 from './components/Contact1'
 import Features from './components/Features'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
@@ -23,7 +23,7 @@ const App = () => {
       <Testimonals/>
       <Case/>
       <Contact/>
-      <Contact1/>
+      {/* <Contact1/> */}
       <Organizations/>
       <Blog/>
       <Footer/>
