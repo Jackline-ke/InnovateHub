@@ -10,10 +10,14 @@ const Testimonals = () => {
                     className='w-full h-full object-cover'
                     alt='testiomals'
                 /> 
-                <div className='absolute bg-[#020e26] w-52 mt-[-140px] px-4 py-2'>
-                    <p className='text-xl font-semibold'>Since 2004</p>
-                    <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua.</p>
+                <div className='px-4'>
+                    <div className='absolute bg-[#020e26] w-52 mt-[-140px] px-4 py-2'>
+                        <div className=''>
+                            <p className='text-xl font-semibold'>Since 2004</p>
+                            <p className='text-base md:text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            magna aliqua.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className='w-full md:flex-1 flex flex-col gap-2 justify-center items-center bg-[#41cffc] px-8 lg:px-32 py-8'>

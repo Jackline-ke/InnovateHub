@@ -32,7 +32,7 @@ export const Navbar = () => {
     
       return (
         <div id="navbar"
-            className={`fixed w-full px-8 py-4 md:px-16 text-white font-serif bg-opacity-70 shadow-md transition-colors duration-300 ${
+            className={`fixed w-full px-4 py-4 md:px-6 lg:px-16 text-white font-serif bg-opacity-70 shadow-md transition-colors duration-300 ${
             nav || window.scrollY > 0 ? 'bg-[#020e26]' : 'bg-opacity-70'
           }`}
           style={{
