@@ -5,6 +5,7 @@ import Case from './components/Case'
 import Contact from './components/Contact'
 import Contact1 from './components/Contact1'
 import Features from './components/Features'
+import Footer from './components/Footer'
 import Hero from './components/Hero'
 import { Navbar } from './components/Navbar'
 import Organizations from './components/Organizations'
@@ -25,6 +26,7 @@ const App = () => {
       <Contact1/>
       <Organizations/>
       <Blog/>
+      <Footer/>
     </div>
   )
 }

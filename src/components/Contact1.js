@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact1 = () => {
   return (
-    <div className='w-full h-screen border font-serif '>
+    <div className='w-full h-screen font-serif '>
         <div className='flex px-32 absolute mt-[-50px]'>
             <div className='flex-1 relative'>
                 <img src='https://res.cloudinary.com/dmpr1moai/image/upload/v1708334914/innovateHub/studio-republic-fotKKqWNMQ4-unsplash_smmeji.jpg'

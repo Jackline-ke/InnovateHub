@@ -5,8 +5,8 @@ const Blog = () => {
   return (
     <div className='w-full h-full flex flex-col justify-center items-center font-serif py-16 text-[#020e26] px-32'>
         <div className='w-2/3 flex flex-col justify-center items-center'>
-            <h3 className='text-sm text-[#41cffc] '>CASE STUDY</h3>
-            <p className='text-2xl font-semibold'>IT Solutions & Projects</p>
+            <h3 className='text-sm text-[#41cffc] '>OUR BLOGS</h3>
+            <p className='text-2xl font-semibold'>Latest News & Articles</p>
             <p className='text-center text-[#020e26]/70 text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/> incididunt ut labore et dolore 
                 magna aliqua.</p>
         </div>
@@ -25,9 +25,11 @@ const Blog = () => {
                     </div>
                 </div>
                 <div className='flex flex-col py-2 px-4'>
+                    <p className='text-sm text-gray-300'>July 31, 2023</p>
+                    <h3 className='text-[#020e26] font-semibold text-lg'>10 Efficient And Measurable Benefits Of Software</h3>
                     <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
                         magna aliqua.</p>
-                    <div className='text-[#41cffc] flex items-center'>
+                    <div className='text-[#41cffc] flex items-center cursor-pointer'>
                         <h3>Read more</h3>
                         <BiArrowToRight className='ml-1'/>
                     </div>
@@ -46,9 +48,11 @@ const Blog = () => {
                     </div>
                 </div>
                 <div className='flex flex-col py-2 px-4'>
+                    <p className='text-sm text-gray-300'>July 31, 2023</p>
+                    <h3 className='text-[#020e26] font-semibold text-lg'>10 Efficient And Measurable Benefits Of Software</h3>
                     <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
                         magna aliqua.</p>
-                    <div className='text-[#41cffc] flex items-center'>
+                    <div className='text-[#41cffc] flex items-center cursor-pointer'>
                         <h3>Read more</h3>
                         <BiArrowToRight className='ml-1'/>
                     </div>
@@ -67,20 +71,15 @@ const Blog = () => {
                     </div>
                 </div>
                 <div className='flex flex-col py-2 px-4'>
+                    <p className='text-sm text-gray-300'>July 31, 2023</p>
+                    <h3 className='text-[#020e26] font-semibold text-lg'>10 Efficient And Measurable Benefits Of Software</h3>
                     <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
                         magna aliqua.</p>
-                    <div className='text-[#41cffc] flex items-center'>
+                    <div className='text-[#41cffc] flex items-center cursor-pointer'>
                         <h3>Read more</h3>
                         <BiArrowToRight className='ml-1'/>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div className='text-sm mt-4 flex'>
-            <p>Get more information</p>
-            <div className='text-[#41cffc] flex items-center ml-2'>
-                <h3>Get Started</h3>
-                <BiArrowToRight className='ml-1'/>
             </div>
         </div>
     </div>
