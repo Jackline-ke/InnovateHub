@@ -30,27 +30,27 @@ const Contact = () => {
                 <form className='px-8 py-2 lg:py-8 flex flex-col gap-2'>
                     <div className='flex flex-col lg:flex-row gap-4'>
                         <div className='flex flex-col gap-1'>
-                            <label>First Name</label>
-                            <input placeholder='First name' type='text' className='border px-4'/>
+                            <label>First Name <span className='text-red-400'>*</span></label>
+                            <input placeholder='First name' type='text' className='border px-4 py-1'/>
                         </div>
                         <div className='flex flex-col gap-1'>
-                            <label>Second Name</label>
-                            <input placeholder='Second name' type='text' className='border px-4'/>
+                            <label>Second Name <span className='text-red-400'>*</span></label>
+                            <input placeholder='Second name' type='text' className='border px-4 py-1'/>
                         </div>
                     </div>
                     <div className='flex flex-col lg:flex-row gap-4'>
                         <div className='flex flex-col gap-1'>
-                            <label>Email</label>
-                            <input placeholder='Email' type='text' className='border px-4'/>
+                            <label>Email <span className='text-red-400'>*</span></label>
+                            <input placeholder='Email' type='text' className='border px-4 py-1'/>
                         </div>
                         <div className='flex flex-col gap-1'>
-                            <label>Phone Number</label>
-                            <input placeholder='Phone number' type='text' className='border px-4'/>
+                            <label>Phone Number <span className='text-red-400'>*</span></label>
+                            <input placeholder='Phone number' type='text' className='border px-4 py-1'/>
                         </div>
                     </div>
                     <div className='flex flex-col gap-1'>
                         <label>Select</label>
-                        <select >
+                        <select className='py-1 px-2'>
                             <option value="it">IT</option>
                             <option value="cs">Computer Science</option>
                         </select>

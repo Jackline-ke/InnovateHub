@@ -1,5 +1,7 @@
 import React from 'react'
-import { BiSupport, BiArrowToRight } from 'react-icons/bi';
+import { BiSupport } from 'react-icons/bi';
+import { FaAngleRight } from 'react-icons/fa'
+
 
 const Case = () => {
   return (
@@ -29,7 +31,7 @@ const Case = () => {
                         magna aliqua.</p>
                     <div className='text-[#41cffc] flex items-center'>
                         <h3>Read more</h3>
-                        <BiArrowToRight className='ml-1'/>
+                         <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
             </div>
@@ -50,7 +52,7 @@ const Case = () => {
                         magna aliqua.</p>
                     <div className='text-[#41cffc] flex items-center'>
                         <h3>Read more</h3>
-                        <BiArrowToRight className='ml-1'/>
+                         <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
             </div>
@@ -71,7 +73,7 @@ const Case = () => {
                         magna aliqua.</p>
                     <div className='text-[#41cffc] flex items-center'>
                         <h3>Read more</h3>
-                        <BiArrowToRight className='ml-1'/>
+                         <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
             </div>
@@ -80,7 +82,7 @@ const Case = () => {
             <p>Get more information</p>
             <div className='text-[#41cffc] flex items-center ml-2'>
                 <h3>Get Started</h3>
-                <BiArrowToRight className='ml-1'/>
+                 <FaAngleRight className='ml-1'/>
             </div>
         </div>
     </div>

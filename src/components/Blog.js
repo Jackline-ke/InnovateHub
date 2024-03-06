@@ -1,5 +1,6 @@
 import React from 'react'
-import { BiSupport, BiArrowToRight } from 'react-icons/bi';
+import { BiSupport} from 'react-icons/bi';
+import { FaAngleRight } from 'react-icons/fa'
 
 const Blog = () => {
   return (
@@ -31,7 +32,7 @@ const Blog = () => {
                         magna aliqua.</p>
                     <div className='text-[#41cffc] flex items-center cursor-pointer'>
                         <h3>Read more</h3>
-                        <BiArrowToRight className='ml-1'/>
+                        <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
             </div>
@@ -54,7 +55,7 @@ const Blog = () => {
                         magna aliqua.</p>
                     <div className='text-[#41cffc] flex items-center cursor-pointer'>
                         <h3>Read more</h3>
-                        <BiArrowToRight className='ml-1'/>
+                        <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
             </div>
@@ -77,7 +78,7 @@ const Blog = () => {
                         magna aliqua.</p>
                     <div className='text-[#41cffc] flex items-center cursor-pointer'>
                         <h3>Read more</h3>
-                        <BiArrowToRight className='ml-1'/>
+                        <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
             </div>
