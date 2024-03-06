@@ -3,7 +3,7 @@ import React from 'react'
 
 const Testimonals = () => {
   return (
-    <div className='w-full h-full font-serif text-white'>
+    <div className='w-full h-full font-serif text-white py-16 lg:py-0'>
         <div 
             // initial={{y:-100, opacity:0 }}
             // whileInView={{y:0, opacity:1}}
@@ -15,7 +15,7 @@ const Testimonals = () => {
                     className='w-full h-full object-cover'
                     alt='testiomals'
                 /> 
-                <div className=' mt-[-100px] lg:mt-[-145px] lg:px-0'>
+                <div className=' mt-0 lg:mt-[-145px] lg:px-0'>
                     <div className='absolute bg-[#020e26] w-full md:w-52 px-4 py-2'>
                         <div className=''>
                             <p className='text-xl font-semibold'>Since 2004</p>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Organizations = () => {
   return (
-    <div className='w-full h-full flex flex-col justify-center items-center font-serif mt-[630px] md:mt-[550px] lg:mt-[450px] px-8 lg:px-0'>
+    <div className='w-full h-full flex flex-col justify-center items-center font-serif mt-[630px] md:mt-[550px] lg:mt-[450px] px-8 lg:px-0 py-16'>
         <div className='flex flex-col gap-6 justify-center items-center'>
             <h1 className='text-[#020e26] font-semibold text-2xl text-center'>Trusted With The World's Best Organizations</h1>
             <div className='grid grid-cols-2 md:flex justify-center items-center gap-4 md:gap-32'>

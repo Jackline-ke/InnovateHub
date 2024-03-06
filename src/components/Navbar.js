@@ -42,7 +42,9 @@ export const Navbar = () => {
           }}
         >
         <div className='flex justify-between items-center'>
-            <h1>InnovateHub</h1>
+            <Link to='home' smooth={true} duration={2000}>
+                <h2>Innovatehub</h2>
+            </Link>
             <div className='hidden lg:flex gap-8 cursor-pointer items-center'>
                 <Link to='home' smooth={true} duration={2000}>
                     <h2>Home</h2>

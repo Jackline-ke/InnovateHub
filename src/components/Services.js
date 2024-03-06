@@ -9,7 +9,7 @@ const Services = () => {
     <div id='services' className='w-full h-full flex justify-center items-center px-8 lg:px-32 font-serif lg:py-16 text-[#020e26]'>
         <motion.div 
         
-            className='grid grid-cols-2 lg:grid-cols-3 gap-4'
+            className='grid grid-cols-1 lg:grid-cols-3 gap-4'
         >
             <motion.div 
             
