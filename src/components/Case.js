@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const Case = () => {
   return (
-    <div id='case' className='w-full h-full flex flex-col justify-center items-center font-serif py-8 lg:py-24 text-[#020e26] px-8 lg:px-32'>
+    <div id='case' className='w-full h-full flex flex-col justify-center items-center font-serif py-4 lg:py-24 text-[#020e26] px-8 lg:px-32'>
         <motion.div
             initial={{y:-100, opacity:0 }}
             whileInView={{y:0, opacity:1}}

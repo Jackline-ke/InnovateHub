@@ -3,7 +3,7 @@ import React from 'react'
 
 const Testimonals = () => {
   return (
-    <div className='w-full h-full font-serif text-white py-16 lg:py-0'>
+    <div className='w-full h-full font-serif text-white py-8 lg:py-0'>
         <div 
             // initial={{y:-100, opacity:0 }}
             // whileInView={{y:0, opacity:1}}

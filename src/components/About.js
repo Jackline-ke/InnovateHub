@@ -61,7 +61,7 @@ const About = () => {
                     initial={{x:100, opacity:0 }}
                     whileInView={{x:0, opacity:1}}
                     transition={{delay:0.2, x: { type: "spring", stiffness: 60}, opacity:{ duration: 0.4}, ease: 'easeIn', duration: 1}} 
-                    className='px-3 py-1 bg-[#41cffc] rounded-md text-sm text-white text-md mt-2 mb-2'
+                    className='px-8 py-2 bg-[#41cffc] rounded-md text-sm text-white text-md mt-2 mb-2'
                 >GET STARTED</motion.button>
                 <div>
                     <motion.div 

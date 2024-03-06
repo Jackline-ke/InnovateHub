@@ -60,7 +60,7 @@ const Contact = () => {
                         <input placeholder='Message...' type='text' className='border py-8 lg:py-12 px-4'/>
                     </div>
                     <div className='mt-2 mb-2 lg:mb-1'>
-                        <button className='px-3 py-1 bg-[#41cffc] text-white text-sm'>GET STARTED</button>
+                        <button className='px-8 py-2 bg-[#41cffc] text-white text-sm'>GET STARTED</button>
                     </div>
                 </form>
             </div>

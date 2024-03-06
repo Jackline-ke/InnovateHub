@@ -14,10 +14,10 @@ const Hero = () => {
         >
             <div className='w-full lg:w-2/3'>
                 <h1 className='text-3xl lg:text-4xl font-bold'>Modern IT and Tech <br/> Service Solution</h1>
-                <p className='mt-4 text-sm lg:text-[16px] font-light'>At Modern IT and Tech, we are dedicated to providing cutting-edge solutions
+                <p className='mt-4 text-[12px] lg:text-[16px] font-light'>At Modern IT and Tech, we are dedicated to providing cutting-edge solutions
                  tailored to meet the ever-evolving needs of businesses in the digital age. With a focus on innovation and efficiency, 
                  our team of experts collaborates seamlessly to deliver top-notch IT and tech services that drive success for our clients.</p>
-                <button className='px-8 py-2 rounded-md mt-4 bg-[#41cffc] font-semibold text-sm'>Contact Us</button>
+                <button className='px-8 py-2 rounded-md mt-4 bg-[#41cffc] font-semibold text-sm'>CONTACT US </button>
             </div>
         </motion.div>
     </div>
