@@ -4,9 +4,9 @@ import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaAngleRight} from 'rea
 
 const Footer = () => {
   return (
-    <div className='w-full h-full bg-[#020e26] font-serif px-16 py-8 text-white'>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-0'>
-            <div className='flex flex-col gap-2'>
+    <div id='footer' className='w-full h-full bg-[#020e26] font-serif px-16 py-8 text-white'>
+        <div className='flex justify-between'>
+            <div className='flex-1 flex flex-col gap-2'>
                 <h1 className='font-semibold text-lg'>InnovateHub</h1>
                 <p className='text-sm text-gray-500 md:text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.</p>
@@ -23,34 +23,7 @@ const Footer = () => {
                     <h3 className='text-sm'>Nairobi, Kenya</h3>
                 </div>
             </div>
-            <div className='flex flex-col gap-2'>
-                <h3 className='font-semibold text-lg'>Other Pages</h3>
-                <div className='lg:py-2'>
-                    <ul className='flex flex-col gap-1'>
-                        <div className='cursor-pointer flex items-center'>
-                            <FaAngleRight/>
-                            <li> Home</li>
-                        </div>
-                        <div className='cursor-pointer flex items-center'>
-                            <FaAngleRight/>
-                            <li> About Us</li>
-                        </div>
-                        <div className='cursor-pointer flex items-center'>
-                            <FaAngleRight/>
-                            <li> Services</li>
-                        </div>
-                        <div className='cursor-pointer flex items-center'>
-                            <FaAngleRight/>
-                            <li> Contact</li>
-                        </div>
-                        <div className='cursor-pointer flex items-center'>
-                            <FaAngleRight/>
-                            <li> Blogs</li>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            <div className='flex flex-col gap-2'>
+            <div className='flex-1 flex flex-col gap-2'>
                 <h3 className='font-semibold text-lg'>Quick Links</h3>
                 <div className='lg:py-1'>
                     <ul className='flex flex-col gap-1'>
@@ -77,12 +50,12 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex flex-col gap-2'>
+            <div className='flex-1 flex flex-col gap-2'>
                 <h3 className='font-semibold text-lg'>Newsletter</h3>
-                <div className='flex items-center justify-center py-4 bg-white'>
+                <div className='flex items-center px-4 py-4 bg-white'>
                     <div className=''>
                         <form className='flex flex-col gap-4'>
-                            <input placeholder='Email' className='py-1 border px-2'/>
+                            <input placeholder='Email' className='py-1 border px-8'/>
                             <div className=''>
                                 <button className='px-1 py-1 bg-[#41cffc] text-white text-[12px] font-semibold'>SUBSCRIBE</button>
                             </div>

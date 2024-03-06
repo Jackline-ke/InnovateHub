@@ -1,13 +1,13 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+//import { motion } from 'framer-motion'
 
 const Testimonals = () => {
   return (
     <div className='w-full h-full font-serif text-white'>
-        <motion.div
-            initial={{ opacity: 0, y: 100}}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, ease: 'easeIn', delay: 0.1 }}
+        <div 
+            // initial={{y:-100, opacity:0 }}
+            // whileInView={{y:0, opacity:1}}
+            // transition={{delay:0.2, y: { type: "spring", stiffness: 60}, opacity:{ duration: 1}, ease: 'easeIn', duration: 1}} 
             className='flex flex-col md:flex-row'
         >
             <div className='md:flex-1'>
@@ -15,21 +15,21 @@ const Testimonals = () => {
                     className='w-full h-full object-cover'
                     alt='testiomals'
                 /> 
-                <div className='lg:px-0'>
-                    <div className='absolute bg-[#020e26] w-full md:w-52 mt-[-100px] lg:mt-[-145px] px-4 py-2'>
+                <div className=' mt-[-100px] lg:mt-[-145px] lg:px-0'>
+                    <div className='absolute bg-[#020e26] w-full md:w-52 px-4 py-2'>
                         <div className=''>
                             <p className='text-xl font-semibold'>Since 2004</p>
-                            <p className='text-base md:text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            <p className='text-[12px] md:text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
                             magna aliqua.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='w-full bg-[#41cffc] md:flex-1 flex items-center'>
-                <motion.div 
-                    initial={{ opacity: 0, y: -100}}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, ease: 'easeOut', delay: 0.4 }}
+                <div 
+                    // initial={{x:100, opacity:0 }}
+                    // whileInView={{x:0, opacity:1}}
+                    // transition={{delay:0.2, x: { type: "spring", stiffness: 60}, opacity:{ duration: 0.4}, ease: 'easeOut', duration: 1}} 
                     className='flex flex-col gap-2 justify-center items-center px-8 lg:px-32 py-8'
                 >
                     <h2 className='font-semibold text-xl'>What Client Say About Us</h2>
@@ -49,9 +49,9 @@ const Testimonals = () => {
                             <p className='text-sm font-extralight'>Co-Founder</p>
                         </div>
                     </div>
-                </motion.div>
+                </div>
             </div>
-        </motion.div>
+        </div>
     </div>
   )
 }

@@ -1,16 +1,22 @@
 import React from 'react'
 import { BiSupport} from 'react-icons/bi';
 import { FaAngleRight } from 'react-icons/fa'
+import { motion } from 'framer-motion'
 
 const Blog = () => {
   return (
-    <div className='w-full h-full flex flex-col justify-center items-center font-serif py-8 lg:py-16 text-[#020e26] px-8 lg:px-32'>
-        <div className='w-full lg:w-2/3 flex flex-col justify-center items-center'>
+    <div id='blog' className='w-full h-full flex flex-col justify-center items-center font-serif py-8 lg:py-24 text-[#020e26] px-8 lg:px-32'>
+       <motion.div
+            initial={{y:-100, opacity:0 }}
+            whileInView={{y:0, opacity:1}}
+            transition={{delay:0.2, y: { type: "spring", stiffness: 60}, opacity:{ duration: 0.6}, ease: 'easeIn', duration: 1}}
+            className='w-full lg:w-2/3 flex flex-col justify-center items-center'
+        >
             <h3 className='text-sm text-[#41cffc] '>OUR BLOGS</h3>
             <p className='text-2xl font-semibold'>Latest News & Articles</p>
             <p className='text-center text-[#020e26]/70 text-[12px] lg:text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/> incididunt ut labore et dolore 
                 magna aliqua.</p>
-        </div>
+        </motion.div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4'>
             {/* item */}
             <div className='border border-[#41cffc]/20'>

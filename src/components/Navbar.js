@@ -47,16 +47,16 @@ export const Navbar = () => {
                 <Link to='home' smooth={true} duration={2000}>
                     <h2>Home</h2>
                 </Link>
-                <Link to='features' smooth={true} duration={2000}>
+                <Link to='about' smooth={true} duration={2000}>
+                    <h2>About</h2>
+                </Link>
+                <Link to='services' smooth={true} duration={2000}>
                     <h2>Services</h2>
                 </Link>
-                <Link to='skills' smooth={true} duration={2000}>
+                <Link to='case' smooth={true} duration={2000}>
                     <h2>Case Study</h2>
                 </Link>
-                <Link to='projects' smooth={true} duration={2000}>
-                    <h2>Pages</h2>
-                </Link>
-                <Link to='contact' smooth={true} duration={2000}>
+                <Link to='blog' smooth={true} duration={2000}>
                     <h2>Blog</h2>
                 </Link>
                 <Link to='contact' smooth={true} duration={2000}>
