@@ -1,6 +1,7 @@
 import React from 'react'
 import { BiPhone, BiEnvelope, BiLocationPlus, BiArrowFromLeft} from 'react-icons/bi'
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaAngleRight} from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
@@ -16,11 +17,11 @@ const Footer = () => {
                 </div>
                 <div className='flex gap-2 items-center'>
                     <BiEnvelope/>
-                    <h3 className='text-sm'>Nairobi, Kenya</h3>
+                    <h3 className='text-sm'>innovatehub@gmail.com</h3>
                 </div>
                 <div className='flex gap-2 items-center'>
                     <BiPhone/>
-                    <h3 className='text-sm'>Nairobi, Kenya</h3>
+                    <h3 className='text-sm'>+254711223344</h3>
                 </div>
             </div>
             <div className='flex-1 flex flex-col gap-2'>
@@ -29,23 +30,43 @@ const Footer = () => {
                     <ul className='flex flex-col gap-1'>
                         <div className='cursor-pointer flex items-center'>
                             <FaAngleRight/>
-                            <li> Home</li>
+                            <li>
+                                <Link to='home' smooth={true} duration={2000}>
+                                    <h2>Home</h2>
+                                </Link>
+                            </li>
                         </div>
                         <div className='cursor-pointer flex items-center'>
                             <FaAngleRight/>
-                            <li> About Us</li>
+                            <li>
+                                <Link to='about' smooth={true} duration={2000}>
+                                    <h2>About Us</h2>
+                                </Link>
+                            </li>
                         </div>
                         <div className='cursor-pointer flex items-center'>
                             <FaAngleRight/>
-                            <li> Services</li>
+                            <li>
+                                <Link to='services' smooth={true} duration={2000}>
+                                    <h2>Services</h2>
+                                </Link>
+                            </li>
                         </div>
                         <div className='cursor-pointer flex items-center'>
                             <FaAngleRight/>
-                            <li> Contact</li>
+                            <li> 
+                                <Link to='case' smooth={true} duration={2000}>
+                                    <h2>Case Study</h2>
+                                </Link>
+                            </li>
                         </div>
                         <div className='cursor-pointer flex items-center'>
                             <FaAngleRight/>
-                            <li> Blogs</li>
+                            <li>
+                                <Link to='blog' smooth={true} duration={2000}>
+                                    <h2>Blog</h2>
+                                </Link>
+                            </li>
                         </div>
                     </ul>
                 </div>

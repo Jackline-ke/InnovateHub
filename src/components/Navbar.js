@@ -43,7 +43,7 @@ export const Navbar = () => {
         >
         <div className='flex justify-between items-center'>
             <Link to='home' smooth={true} duration={2000}>
-                <h2>Innovatehub</h2>
+                <h2 className='cursor-pointer'>Innovatehub</h2>
             </Link>
             <div className='hidden lg:flex gap-8 cursor-pointer items-center'>
                 <Link to='home' smooth={true} duration={2000}>
@@ -63,9 +63,6 @@ export const Navbar = () => {
                 </Link>
                 <Link to='contact' smooth={true} duration={2000}>
                     <h2>Contact</h2>
-                </Link>
-                <Link to='contact' smooth={true} duration={2000} className="px-3 py-1 bg-[#41cffc] rounded-md">
-                    <h2 className='text-[12px] text-white'>GET STARTED</h2>
                 </Link>
             </div>
             {/* humburger */}

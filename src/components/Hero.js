@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Link } from 'react-scroll'
 
 const Hero = () => {
   return (
@@ -17,7 +18,9 @@ const Hero = () => {
                 <p className='mt-4 text-[12px] lg:text-[16px] font-light'>At Modern IT and Tech, we are dedicated to providing cutting-edge solutions
                  tailored to meet the ever-evolving needs of businesses in the digital age. With a focus on innovation and efficiency, 
                  our team of experts collaborates seamlessly to deliver top-notch IT and tech services that drive success for our clients.</p>
-                <button className='px-8 py-2 rounded-md mt-4 bg-[#41cffc] font-semibold text-sm'>CONTACT US </button>
+                <Link to='contact' smooth={true} duration={2000}>
+                  <button className='px-8 py-2 rounded-md mt-4 bg-[#41cffc] font-semibold text-sm'>CONTACT US </button>
+                </Link>
             </div>
         </motion.div>
     </div>
