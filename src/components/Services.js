@@ -15,26 +15,27 @@ const Services = () => {
             
                 className='flex flex-col py-2 lg:py-4 '
             >
-                <h3 className='text-[#41cffc]'>Our Services</h3>
-                <h2 className='font-semibold text-lg lg:text-xl text-[#020e26]'>Solutions & Focus <br/>Area</h2>
-                <p className='text-[12px] lg:text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua.</p>
+                <h3 className='text-[#3678fc]'>Our Services</h3>
+                <h2 className='font-semibold text-lg lg:text-xl text-[#020e26]'>Solutions & Focus <br/> Area</h2>
+                <p className='text-[12px] lg:text-[12px] text-[#020e26]/70'>We take pride in offering a 
+                    diverse range of services, each meticulously designed to address specific challenges and opportunities in 
+                    today's dynamic business environment. </p>
                 <div>
-                    <button className='px-3 py-1 bg-[#41cffc] text-white text-sm mt-2'>GET STARTED</button>
+                    <button className='px-3 py-1 bg-[#3678fc] text-white text-sm mt-2'>GET STARTED</button>
                 </div>
             </motion.div>
             <motion.div 
                 
                 className='flex flex-col justify-center items-center bg-white border border-[#41cffc]/20 shadow-sm py-2 lg:py-4 px-2 lg:px-4 rounded-sm'
             >
-                <BiSupport className='text-2xl mb-1 text-[#41cffc]' />
+                <BiSupport className='text-2xl mb-1 text-[#3678fc]' />
                 <div className='flex flex-col justify-center items-center gap-1'>
-                    <h1 className='font-semibold text-[#020e26]'>IT Expert</h1>
+                    <h1 className='font-semibold text-[#020e26]'>IT Consulting</h1>
                     <p className='text-[12px] lg:text-sm text-center text-[#020e26]/70'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Leverage our expertise to make informed decisions and optimize your IT strategy.
                     </p>
-                    <div className='text-[#41cffc] flex px-2 justify-center items-center'>
-                        <h3 className='text-sm lg:text-lg font-light'>Read more</h3>
+                    <div className='text-[#3678fc] flex px-2 justify-center items-center'>
+                        <h3 className='text-sm font-light'>Read more</h3>
                         <FaAngleRight className='ml-2 text-sm'/>
                     </div>
                 </div>
@@ -43,14 +44,14 @@ const Services = () => {
                
                 className='flex flex-col justify-center items-center bg-white border border-[#41cffc]/20 shadow-sm py-2 lg:py-4 px-2 lg:px-4 rounded-sm'
             >
-                <BiSupport className='text-2xl mb-1 text-[#41cffc]' />
+                <BiSupport className='text-2xl mb-1 text-[#3678fc]' />
                 <div className='flex flex-col justify-center items-center gap-1'>
-                    <h1 className='font-semibold text-[#020e26]'>IT Expert</h1>
+                    <h1 className='font-semibold text-[#020e26]'>Managed Services</h1>
                     <p className='text-[12px] lg:text-sm text-center text-[#020e26]/70'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ensure the seamless operation of your IT infrastructure with our comprehensive managed services.
                     </p>
-                    <div className='text-[#41cffc] flex px-2 justify-center items-center'>
-                        <h3 className='text-sm lg:text-lg font-light'>Read more</h3>
+                    <div className='text-[#3678fc] flex px-2 justify-center items-center'>
+                        <h3 className='text-sm font-light'>Read more</h3>
                         <FaAngleRight className='ml-2 text-sm'/>
                     </div>
                 </div>
@@ -59,14 +60,14 @@ const Services = () => {
                 
                 className='flex flex-col justify-center items-center bg-white border border-[#41cffc]/20 shadow-sm py-2 lg:py-4 px-2 lg:px-4 rounded-sm'
             >
-                <BiSupport className='text-2xl mb-1 text-[#41cffc]' />
+                <BiSupport className='text-2xl mb-1 text-[#3678fc]' />
                 <div className='flex flex-col justify-center items-center gap-1'>
-                    <h1 className='font-semibold text-[#020e26]'>IT Expert</h1>
+                    <h1 className='font-semibold text-[#020e26]'>Cloud Computing</h1>
                     <p className='text-[12px] lg:text-sm text-center text-[#020e26]/70'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Embrace the flexibility and scalability of cloud solutions tailored to your business needs.
                     </p>
-                    <div className='text-[#41cffc] flex px-2 justify-center items-center'>
-                        <h3 className='text-sm lg:text-lg font-light'>Read more</h3>
+                    <div className='text-[#3678fc] flex px-2 justify-center items-center'>
+                        <h3 className='text-sm font-light'>Read more</h3>
                         <FaAngleRight className='ml-2 text-sm'/>
                     </div>
                 </div>
@@ -75,14 +76,14 @@ const Services = () => {
               
                 className='flex flex-col justify-center items-center bg-white border border-[#41cffc]/20 shadow-sm py-2 lg:py-4 px-2 lg:px-4 rounded-sm'
             >
-                <BiSupport className='text-2xl mb-1 text-[#41cffc]' />
+                <BiSupport className='text-2xl mb-1 text-[#3678fc]' />
                 <div className='flex flex-col justify-center items-center gap-1'>
-                    <h1 className='font-semibold text-[#020e26]'>IT Expert</h1>
+                    <h1 className='font-semibold text-[#020e26]'>Tech Support</h1>
                     <p className='text-[12px] lg:text-sm text-center text-[#020e26]/70'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Reliable and responsive IT support to address your technical issues promptly.
                     </p>
-                    <div className='text-[#41cffc] flex px-2 justify-center items-center'>
-                        <h3 className='text-sm lg:text-lg font-light'>Read more</h3>
+                    <div className='text-[#3678fc] flex px-2 justify-center items-center'>
+                        <h3 className='text-sm font-light'>Read more</h3>
                         <FaAngleRight className='ml-2 text-sm'/>
                     </div>
                 </div>
@@ -91,14 +92,14 @@ const Services = () => {
                
                 className='flex flex-col justify-center items-center bg-white border border-[#41cffc]/20 shadow-sm py-2 lg:py-4 px-2 lg:px-4 rounded-sm'
             >
-                <BiSupport className='text-2xl mb-1 text-[#41cffc]' />
+                <BiSupport className='text-2xl mb-1 text-[#3678fc]' />
                 <div className='flex flex-col justify-center items-center gap-1'>
-                    <h1 className='font-semibold text-[#020e26]'>IT Expert</h1>
+                    <h1 className='font-semibold text-[#020e26]'>Software Development</h1>
                     <p className='text-[12px] lg:text-sm text-center text-[#020e26]/70'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Customized software solutions to meet your unique business requirements.
                     </p>
-                    <div className='text-[#41cffc] flex px-2 justify-center items-center'>
-                        <h3 className='text-sm lg:text-lg font-light'>Read more</h3>
+                    <div className='text-[#3678fc] flex px-2 justify-center items-center'>
+                        <h3 className='text-sm font-light'>Read more</h3>
                         <FaAngleRight className='ml-2 text-sm'/>
                     </div>
                 </div>

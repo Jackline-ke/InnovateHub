@@ -11,12 +11,12 @@ const Case = () => {
             initial={{y:-100, opacity:0 }}
             whileInView={{y:0, opacity:1}}
             transition={{delay:0.2, y: { type: "spring", stiffness: 60}, opacity:{ duration: 0.6}, ease: 'easeIn', duration: 1}}
-            className='w-full lg:w-2/3 flex flex-col justify-center items-center'
+            className='w-full lg:w-[500px] flex flex-col justify-center items-center'
         >
-            <h3 className='text-sm text-[#41cffc] '>CASE STUDY</h3>
+            <h3 className='text-sm text-[#3678fc] '>CASE STUDY</h3>
             <p className='text-2xl font-semibold'>IT Solutions & Projects</p>
-            <p className='text-center text-[#020e26]/70 text-[12px] lg:text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/> incididunt ut labore et dolore 
-                magna aliqua.</p>
+            <p className='text-center text-[#020e26]/70 text-[12px] lg:text-sm'>Embark on a journey of technological innovation 
+            and efficiency with our comprehensive IT solutions and projects.</p>
         </motion.div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4'>
             {/* item */}
@@ -25,7 +25,7 @@ const Case = () => {
                     alt='caseStudy'
                     className='w-full'
                 />
-                <div className='bg-[#41cffc] text-white px-2 py-1 flex items-center justify-center'>
+                <div className='bg-[#3678fc] text-white px-2 py-1 flex items-center justify-center'>
                     <BiSupport className='text-xl'/>
                     <div className='ml-4'>
                         <p className='font-semibold'>Workflow Management</p>
@@ -35,8 +35,8 @@ const Case = () => {
                 <div className='flex flex-col py-2 px-4'>
                     <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
                         magna aliqua.</p>
-                    <div className='text-[#41cffc] flex items-center'>
-                        <h3>Read more</h3>
+                    <div className='text-[#3678fc] flex items-center'>
+                        <h3 className='text-sm'>Read more</h3>
                          <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const Case = () => {
                     alt='caseStudy'
                     className='w-full'
                 />
-                <div className='bg-[#41cffc] text-white px-2 py-1 flex items-center justify-center'>
+                <div className='bg-[#3678fc] text-white px-2 py-1 flex items-center justify-center'>
                     <BiSupport className='text-xl'/>
                     <div className='ml-4'>
                         <p className='font-semibold'>Workflow Management</p>
@@ -56,8 +56,8 @@ const Case = () => {
                 <div className='flex flex-col py-2 px-4'>
                     <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
                         magna aliqua.</p>
-                    <div className='text-[#41cffc] flex items-center'>
-                        <h3>Read more</h3>
+                    <div className='text-[#3678fc] flex items-center'>
+                        <h3 className='text-sm'>Read more</h3>
                          <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ const Case = () => {
                     alt='caseStudy'
                     className='w-full'
                 />
-                <div className='bg-[#41cffc] text-white px-2 py-1 flex items-center justify-center'>
+                <div className='bg-[#3678fc] text-white px-2 py-1 flex items-center justify-center'>
                     <BiSupport className='text-xl'/>
                     <div className='ml-4'>
                         <p className='font-semibold'>Workflow Management</p>
@@ -77,8 +77,8 @@ const Case = () => {
                 <div className='flex flex-col py-2 px-4'>
                     <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
                         magna aliqua.</p>
-                    <div className='text-[#41cffc] flex items-center'>
-                        <h3>Read more</h3>
+                    <div className='text-[#3678fc] flex items-center'>
+                        <h3 className='text-sm'>Read more</h3>
                          <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const Case = () => {
         </div>
         <div className='text-sm mt-4 flex'>
             <p>Get more information</p>
-            <div className='text-[#41cffc] flex items-center ml-2'>
+            <div className='text-[#3678fc] flex items-center ml-2'>
                 <h3>Get Started</h3>
                  <FaAngleRight className='ml-1'/>
             </div>

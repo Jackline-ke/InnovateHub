@@ -78,7 +78,7 @@ const Footer = () => {
                         <form className='flex flex-col gap-4'>
                             <input placeholder='Email' className='py-1 border px-8'/>
                             <div className=''>
-                                <button className='px-1 py-1 bg-[#41cffc] text-white text-[12px] font-semibold'>SUBSCRIBE</button>
+                                <button className='px-4 py-1 bg-[#3678fc] text-white text-[12px] font-semibold'>SUBSCRIBE</button>
                             </div>
                         </form>
                     </div>

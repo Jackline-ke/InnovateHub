@@ -26,7 +26,7 @@ const About = () => {
                     initial={{x:100, opacity:0 }}
                     whileInView={{x:0, opacity:1}}
                     transition={{delay:0.2, x: { type: "spring", stiffness: 60}, opacity:{ duration: 1}, ease: 'easeIn', duration: 1}} 
-                    className='text-[#41cffc] font-medium'
+                    className='text-[#3678fc] font-medium'
                 >About Us</motion.h3>
                 <motion.h2 
                     initial={{x:100, opacity:0 }}
@@ -40,28 +40,31 @@ const About = () => {
                     transition={{delay:0.2, x: { type: "spring", stiffness: 60}, opacity:{ duration: 0.6}, ease: 'easeIn', duration: 1}} 
                     className='text-[#020e26]/70'
                 >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat. 
+                    At InnovateHub, we understand the significance of reliable partnerships in the realm of Information Technology. 
+                    Serving as your preferred IT partner, we are dedicated to providing tailored solutions that align seamlessly 
+                    with your business needs. Our commitment is to foster a collaborative and supportive relationship, ensuring 
+                    your technological endeavors are not only efficient but also geared towards achieving optimal outcomes.
                 </motion.p>
                 <motion.div 
                     initial={{x:100, opacity:0 }}
                     whileInView={{x:0, opacity:1}}
                     transition={{delay:0.2, x: { type: "spring", stiffness: 60}, opacity:{ duration: 0.4}, ease: 'easeIn', duration: 1}} 
-                    className='bg-[#41cffc]/5 py-4 px-2 mt-4 flex items-center justify-center'
+                    className='bg-[#3678fc]/5 py-4 px-2 mt-4 flex items-center justify-center'
                 >
                     <div className='w-1 h-24 bg-[#41cffc]'></div>
                     <div className='ml-4'>
                         <p className='font-semibold text-[#020e26]'>As one of the world's largest IT service Providers, our deep goal of over 130 certified engineers and IT support staff</p>
-                        <p className='text-[#020e26] font-extralight text-sm mt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p className='text-[#020e26] font-extralight text-sm mt-2'>We prioritize excellence in every facet of our
+                            services, ensuring that our clients benefit from the extensive expertise and collaborative efforts of our 
+                            skilled professionals. Our mission is to deliver unparalleled solutions that transcend the ordinary, 
+                            leveraging the collective knowledge and experience of our certified engineers. </p>
                     </div>
                 </motion.div>
                 <motion.button 
                     initial={{x:100, opacity:0 }}
                     whileInView={{x:0, opacity:1}}
                     transition={{delay:0.2, x: { type: "spring", stiffness: 60}, opacity:{ duration: 0.4}, ease: 'easeIn', duration: 1}} 
-                    className='px-8 py-2 bg-[#41cffc] rounded-md text-sm text-white text-md mt-2 mb-2'
+                    className='px-8 py-2 bg-[#3678fc] rounded-md text-sm text-white text-md mt-4 mb-2'
                 >GET STARTED</motion.button>
                 <div>
                     <motion.div 
@@ -70,7 +73,7 @@ const About = () => {
                         transition={{delay:0.2, x: { type: "spring", stiffness: 60}, opacity:{ duration: 0.4}, ease: 'easeIn', duration: 1}} 
                         className='flex items-center'
                     >
-                        <BiCheckSquare className='text-[#41cffc] mr-2'/>
+                        <BiCheckSquare className='text-[#3678fc] mr-2'/>
                         <p className='text-[#020e26]/70'>We are committed to providing quality IT Services.</p>
                     </motion.div>
                     <motion.div 
@@ -79,7 +82,7 @@ const About = () => {
                         transition={{delay:0.2, x: { type: "spring", stiffness: 60}, opacity:{ duration: 0.2}, ease: 'easeIn', duration: 1}} 
                         className='flex items-center'
                     >
-                        <BiCheckSquare className='text-[#41cffc] mr-2'/>
+                        <BiCheckSquare className='text-[#3678fc] mr-2'/>
                         <p className='text-[#020e26]/70'>Provided by experts to hel challenge critical activities.</p>
                     </motion.div>
                     <motion.div 
@@ -88,7 +91,7 @@ const About = () => {
                         transition={{delay:0.2, x: { type: "spring", stiffness: 60}, opacity:{ duration: 0.1}, ease: 'easeIn', duration: 1}} 
                         className='flex items-center'
                     >
-                        <BiCheckSquare className='text-[#41cffc] mr-2'/>
+                        <BiCheckSquare className='text-[#3678fc] mr-2'/>
                         <p className='text-[#020e26]/70'>Really know the true needs and expectations of customers.</p>
                     </motion.div>
                 </div>

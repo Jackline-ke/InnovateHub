@@ -15,11 +15,12 @@ const Hero = () => {
         >
             <div className='w-full lg:w-2/3'>
                 <h1 className='text-3xl lg:text-4xl font-bold'>Modern IT and Tech <br/> Service Solution</h1>
-                <p className='mt-4 text-[12px] lg:text-[16px] font-light'>At Modern IT and Tech, we are dedicated to providing cutting-edge solutions
-                 tailored to meet the ever-evolving needs of businesses in the digital age. With a focus on innovation and efficiency, 
-                 our team of experts collaborates seamlessly to deliver top-notch IT and tech services that drive success for our clients.</p>
+                <p className='mt-4 text-[12px] lg:text-[16px] font-light'>Our commitment is to deliver state-of-the-art solutions 
+                specifically crafted to address the dynamic requirements of businesses in today's digital landscape. Prioritizing 
+                innovation and operational excellence, our cohesive team of professionals works collaboratively to provide 
+                exceptional IT and technology services, empowering our clients to achieve unparalleled success.</p>
                 <Link to='contact' smooth={true} duration={2000}>
-                  <button className='px-8 py-2 rounded-md mt-4 bg-[#41cffc] font-semibold text-sm'>CONTACT US </button>
+                  <button className='px-8 py-2 rounded-md mt-4 bg-[#3678fc] font-semibold text-sm'>CONTACT US </button>
                 </Link>
             </div>
         </motion.div>

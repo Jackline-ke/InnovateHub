@@ -12,8 +12,8 @@ const Contact = () => {
             <div className='absolute top-0 w-full h-full text-white flex flex-col justify-center items-center text-center '>
                <div className='lg:w-[650px] px-8 lg:px-1 '>
                     <h1 className='font-semibold text-2xl'>Don't Hesitate To Contact Us For Better Information And Services</h1>
-                    <p className='text-sm lg:text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.</p>
+                    <p className='text-sm lg:text-lg'>Our dedicated team is ready to address your inquiries, provide detailed 
+                    insights, and offer tailored solutions that align with your specific needs. </p>
                </div>
             </div>
         </div>
@@ -24,7 +24,7 @@ const Contact = () => {
                     className='w-full h-32 md:h-full object-cover'
                     alt='contact'
                 />
-                <div className='absolute w-full h-full top-0 left-0 bg-[#41cffc]/50'></div>
+                <div className='absolute w-full h-full top-0 left-0 bg-[#3678fc]/50'></div>
             </div>
             <div className='flex-1 border border-[#41cffc]/20 bg-white'>
                 <form className='px-8 py-2 lg:py-8 flex flex-col gap-2'>
@@ -60,7 +60,7 @@ const Contact = () => {
                         <input placeholder='Message...' type='text' className='border py-8 lg:py-12 px-4'/>
                     </div>
                     <div className='mt-2 mb-2 lg:mb-1'>
-                        <button className='px-8 py-2 bg-[#41cffc] text-white text-sm'>GET STARTED</button>
+                        <button className='px-8 py-2 bg-[#3678fc] text-white text-sm'>GET STARTED</button>
                     </div>
                 </form>
             </div>
