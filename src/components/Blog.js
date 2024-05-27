@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiSupport} from 'react-icons/bi';
 import { FaAngleRight } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 
@@ -14,8 +13,7 @@ const Blog = () => {
         >
             <h3 className='text-sm text-[#3678fc] '>OUR BLOGS</h3>
             <p className='text-2xl font-semibold'>Latest News & Articles</p>
-            <p className='text-center text-[#020e26]/70 text-[12px] lg:text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/> incididunt ut labore et dolore 
-                magna aliqua.</p>
+            <p className='text-center text-[#020e26]/70 text-[12px] lg:text-sm'>Stay informed with the latest insights and trends in technology and innovation. Dive into our expertly crafted articles and news updates, designed to keep you ahead in the fast-paced world of IT and tech services. </p>
         </motion.div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4'>
             {/* item */}
@@ -24,18 +22,10 @@ const Blog = () => {
                     alt='caseStudy'
                     className='w-full'
                 />
-                <div className='bg-[#3678fc] text-white px-2 py-1 flex items-center justify-center'>
-                    <BiSupport className='text-xl'/>
-                    <div className='ml-4'>
-                        <p className='font-semibold'>Workflow Management</p>
-                        <p className='text-sm'>IT Management</p>
-                    </div>
-                </div>
                 <div className='flex flex-col py-2 px-4'>
+                    <h3 className='text-[#020e26] font-semibold text-lg'>Embracing Artificial Intelligence: Transforming Business Operations</h3>
                     <p className='text-sm text-gray-300'>July 31, 2023</p>
-                    <h3 className='text-[#020e26] font-semibold text-lg'>10 Efficient And Measurable Benefits Of Software</h3>
-                    <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua.</p>
+                    <p className='text-sm text-[#020e26]/70'>Artificial Intelligence (AI) is no longer a futuristic concept but a present-day reality transforming business operations across various industries. From automating routine tasks to providing advanced data analytics, AI is driving efficiency and innovation.</p>
                     <div className='text-[#3678fc] flex items-center cursor-pointer'>
                         <h3 lassName='text-sm'>Read more</h3>
                         <FaAngleRight className='ml-1'/>
@@ -47,18 +37,10 @@ const Blog = () => {
                     alt='caseStudy'
                     className='w-full'
                 />
-                <div className='bg-[#3678fc] text-white px-2 py-1 flex items-center justify-center'>
-                    <BiSupport className='text-xl'/>
-                    <div className='ml-4'>
-                        <p className='font-semibold'>Workflow Management</p>
-                        <p className='text-sm'>IT Management</p>
-                    </div>
-                </div>
                 <div className='flex flex-col py-2 px-4'>
+                    <h3 className='text-[#020e26] font-semibold text-lg'>The Rise of Remote Work: How Technology is Shaping the Future of Work</h3>
                     <p className='text-sm text-gray-300'>July 31, 2023</p>
-                    <h3 className='text-[#020e26] font-semibold text-lg'>10 Efficient And Measurable Benefits Of Software</h3>
-                    <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua.</p>
+                    <p className='text-sm text-[#020e26]/70'>The shift to remote work has been accelerated by recent global events, and technology has played a crucial role in making this transition smooth and effective. </p>
                     <div className='text-[#3678fc] flex items-center cursor-pointer'>
                         <h3 lassName='text-sm'>Read more</h3>
                         <FaAngleRight className='ml-1'/>
@@ -70,18 +52,10 @@ const Blog = () => {
                     alt='caseStudy'
                     className='w-full'
                 />
-                <div className='bg-[#3678fc] text-white px-2 py-1 flex items-center justify-center'>
-                    <BiSupport className='text-xl'/>
-                    <div className='ml-4'>
-                        <p className='font-semibold'>Workflow Management</p>
-                        <p className='text-sm'>IT Management</p>
-                    </div>
-                </div>
                 <div className='flex flex-col py-2 px-4'>
+                    <h3 className='text-[#020e26] font-semibold text-lg'> Cloud Computing: The Backbone of Modern IT Solutions</h3>
                     <p className='text-sm text-gray-300'>July 31, 2023</p>
-                    <h3 className='text-[#020e26] font-semibold text-lg'>10 Efficient And Measurable Benefits Of Software</h3>
-                    <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua.</p>
+                    <p className='text-sm text-[#020e26]/70'>Cloud computing has revolutionized the IT landscape, offering scalable, cost-effective, and flexible solutions for businesses of all sizes. It has become the backbone of modern IT infrastructure, enabling innovation and growth.</p>
                     <div className='text-[#3678fc] flex items-center cursor-pointer'>
                         <h3 lassName='text-sm'>Read more</h3>
                         <FaAngleRight className='ml-1'/>

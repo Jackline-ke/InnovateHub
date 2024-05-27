@@ -21,7 +21,7 @@ const Services = () => {
                     diverse range of services, each meticulously designed to address specific challenges and opportunities in 
                     today's dynamic business environment. </p>
                 <div>
-                    <button className='px-3 py-1 bg-[#3678fc] text-white text-sm mt-2'>GET STARTED</button>
+                    <button className='px-3 py-1 bg-[#3678fc] text-white text-sm mt-2 cursor-pointer'>GET STARTED</button>
                 </div>
             </motion.div>
             <motion.div 
@@ -34,7 +34,7 @@ const Services = () => {
                     <p className='text-[12px] lg:text-sm text-center text-[#020e26]/70'>
                         Leverage our expertise to make informed decisions and optimize your IT strategy.
                     </p>
-                    <div className='text-[#3678fc] flex px-2 justify-center items-center'>
+                    <div className='text-[#3678fc] flex px-2 justify-center items-center cursor-pointer'>
                         <h3 className='text-sm font-light'>Read more</h3>
                         <FaAngleRight className='ml-2 text-sm'/>
                     </div>
@@ -50,7 +50,7 @@ const Services = () => {
                     <p className='text-[12px] lg:text-sm text-center text-[#020e26]/70'>
                         Ensure the seamless operation of your IT infrastructure with our comprehensive managed services.
                     </p>
-                    <div className='text-[#3678fc] flex px-2 justify-center items-center'>
+                    <div className='text-[#3678fc] flex px-2 justify-center items-center cursor-pointer'>
                         <h3 className='text-sm font-light'>Read more</h3>
                         <FaAngleRight className='ml-2 text-sm'/>
                     </div>
@@ -66,7 +66,7 @@ const Services = () => {
                     <p className='text-[12px] lg:text-sm text-center text-[#020e26]/70'>
                         Embrace the flexibility and scalability of cloud solutions tailored to your business needs.
                     </p>
-                    <div className='text-[#3678fc] flex px-2 justify-center items-center'>
+                    <div className='text-[#3678fc] flex px-2 justify-center items-center cursor-pointer'>
                         <h3 className='text-sm font-light'>Read more</h3>
                         <FaAngleRight className='ml-2 text-sm'/>
                     </div>
@@ -82,7 +82,7 @@ const Services = () => {
                     <p className='text-[12px] lg:text-sm text-center text-[#020e26]/70'>
                         Reliable and responsive IT support to address your technical issues promptly.
                     </p>
-                    <div className='text-[#3678fc] flex px-2 justify-center items-center'>
+                    <div className='text-[#3678fc] flex px-2 justify-center items-center cursor-pointer'>
                         <h3 className='text-sm font-light'>Read more</h3>
                         <FaAngleRight className='ml-2 text-sm'/>
                     </div>
@@ -98,7 +98,7 @@ const Services = () => {
                     <p className='text-[12px] lg:text-sm text-center text-[#020e26]/70'>
                         Customized software solutions to meet your unique business requirements.
                     </p>
-                    <div className='text-[#3678fc] flex px-2 justify-center items-center'>
+                    <div className='text-[#3678fc] flex px-2 justify-center items-center cursor-pointer'>
                         <h3 className='text-sm font-light'>Read more</h3>
                         <FaAngleRight className='ml-2 text-sm'/>
                     </div>

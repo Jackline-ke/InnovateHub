@@ -6,7 +6,7 @@ import { Link } from 'react-scroll'
 const Footer = () => {
   return (
     <div id='footer' className='w-full h-full bg-[#020e26] font-serif px-8 lg:px-16 py-8 text-white'>
-        <div className='flex flex-col lg:flex-row gap-8 justify-between'>
+        <div className='flex flex-col md:flex-row lg:flex-row gap-8 justify-between'>
             <div className='flex-1 flex flex-col gap-2'>
                 <h1 className='font-semibold text-lg'>InnovateHub</h1>
                 <p className='text-sm text-gray-500 md:text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore

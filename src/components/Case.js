@@ -28,15 +28,14 @@ const Case = () => {
                 <div className='bg-[#3678fc] text-white px-2 py-1 flex items-center justify-center'>
                     <BiSupport className='text-xl'/>
                     <div className='ml-4'>
-                        <p className='font-semibold'>Workflow Management</p>
-                        <p className='text-sm'>IT Management</p>
+                        <p className='font-semibold'>Cloud Migration</p>
+                        <p className='text-sm'>Global Retail Corporation</p>
                     </div>
                 </div>
                 <div className='flex flex-col py-2 px-4'>
-                    <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua.</p>
+                    <p className='text-sm text-[#020e26]/70'>We implemented a comprehensive cloud migration strategy, moving their critical applications and databases to Amazon Web Services (AWS). This included a detailed assessment, planning, and execution phase, ensuring minimal disruption to their operations.</p>
                     <div className='text-[#3678fc] flex items-center'>
-                        <h3 className='text-sm'>Read more</h3>
+                        <h3 className='text-sm cursor-pointer'>Read more</h3>
                          <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
@@ -49,15 +48,14 @@ const Case = () => {
                 <div className='bg-[#3678fc] text-white px-2 py-1 flex items-center justify-center'>
                     <BiSupport className='text-xl'/>
                     <div className='ml-4'>
-                        <p className='font-semibold'>Workflow Management</p>
-                        <p className='text-sm'>IT Management</p>
+                        <p className='font-semibold'> Cybersecurity Enhancement</p>
+                        <p className='text-sm'>Financial Institution</p>
                     </div>
                 </div>
                 <div className='flex flex-col py-2 px-4'>
-                    <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua.</p>
+                    <p className='text-sm text-[#020e26]/70'>Our team conducted a thorough security audit and implemented advanced cybersecurity measures, including multi-factor authentication, encryption, and continuous monitoring solutions.</p>
                     <div className='text-[#3678fc] flex items-center'>
-                        <h3 className='text-sm'>Read more</h3>
+                        <h3 className='text-sm cursor-pointer'>Read more</h3>
                          <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
@@ -70,15 +68,14 @@ const Case = () => {
                 <div className='bg-[#3678fc] text-white px-2 py-1 flex items-center justify-center'>
                     <BiSupport className='text-xl'/>
                     <div className='ml-4'>
-                        <p className='font-semibold'>Workflow Management</p>
-                        <p className='text-sm'>IT Management</p>
+                        <p className='font-semibold'>Digital Transformation</p>
+                        <p className='text-sm'>Manufacturing Company</p>
                     </div>
                 </div>
                 <div className='flex flex-col py-2 px-4'>
-                    <p className='text-sm text-[#020e26]/70'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua.</p>
+                    <p className='text-sm text-[#020e26]/70'>We developed a digital transformation roadmap that included the implementation of IoT devices, automation of key processes, and integration of ERP systems. Our team provided end-to-end support from planning to execution and ongoing maintenance.</p>
                     <div className='text-[#3678fc] flex items-center'>
-                        <h3 className='text-sm'>Read more</h3>
+                        <h3 className='text-sm cursor-pointer'>Read more</h3>
                          <FaAngleRight className='ml-1'/>
                     </div>
                 </div>
@@ -87,7 +84,7 @@ const Case = () => {
         <div className='text-sm mt-4 flex'>
             <p>Get more information</p>
             <div className='text-[#3678fc] flex items-center ml-2'>
-                <h3>Get Started</h3>
+                <h3 className='cursor-pointer'>Get Started</h3>
                  <FaAngleRight className='ml-1'/>
             </div>
         </div>

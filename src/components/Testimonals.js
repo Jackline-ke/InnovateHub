@@ -15,14 +15,6 @@ const Testimonals = () => {
                     className='w-full h-full object-cover'
                     alt='testiomals'
                 /> 
-                <div className=' mt-0 lg:mt-[-145px] lg:px-0'>
-                    <div className='absolute bg-[#020e26] w-full md:w-52 px-4 py-2'>
-                        <div className=''>
-                            <p className='text-xl font-semibold'>Since 2004</p>
-                            <p className='text-[12px] md:text-sm'>Our journey has been marked by a relentless commitment to excellence and a passion for staying at the forefront of innovation. </p>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div className='w-full bg-[#3678fc] md:flex-1 flex items-center'>
                 <div 
