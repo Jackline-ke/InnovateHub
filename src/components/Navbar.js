@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
-import {FaBars} from 'react-icons/fa'
-import {Link} from 'react-scroll'
+import { FaBars } from 'react-icons/fa'
+import { Link } from 'react-scroll'
+import logo from '../assets/logo2.png'
 
 export const Navbar = () => {
     const[nav, setNav] = useState(false)
@@ -42,7 +43,8 @@ export const Navbar = () => {
           }}
         >
         <div className='flex justify-between items-center'>
-            <Link to='home' smooth={true} duration={2000}>
+            <Link to='home' smooth={true} duration={2000} className='flex items-center'>
+                <img src={logo} alt='' className='w-12 h-10'/>
                 <h2 className='cursor-pointer'>Innovatehub</h2>
             </Link>
             <div className='hidden lg:flex gap-8 cursor-pointer items-center'>
